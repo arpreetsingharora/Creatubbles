@@ -1,0 +1,34 @@
+h1 {
+    font-family: "Roboto";
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .timer-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .timer {
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text {
+    color: #F9EA9A;
+  }
+  
+  .value {
+    font-size: 40px;
+    color: #F9EA9A;
+  }
+  
+  .info {
+    max-width: 360px;
+    margin: 40px auto 0;
+    text-align: center;
+    font-size: 16px;
+  }
+  

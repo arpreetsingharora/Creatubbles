@@ -1,0 +1,48 @@
+.rs-heading{
+
+    font-size: 90px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.rs-congratsHeading{
+
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    color: #f4fff8;
+    margin-left: 10px;
+}
+
+.rs-resultDisplay{
+
+    font-size: 40px;
+    font-weight: 500;
+    color: #f4fff8;
+    margin-left: 50px;
+}
+
+.rs-homeButton{
+
+    margin-left: 27%;
+}
+
+.rs-image-container {
+    position: relative;
+    width: 100vw; /* Set the width to the full viewport width */
+    height: 100vh; /* Set the height to the full viewport height */
+}
+
+.rs-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .rs-text-overlay{
+    position: absolute;
+    font-size: 40px;
+    color: #F9EA9A;
+    top: 5%;
+    left: 30%;
+  }

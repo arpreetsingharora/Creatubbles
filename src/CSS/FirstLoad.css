@@ -1,0 +1,38 @@
+
+  .fl-image-container {
+    position: relative;
+    width: 100vw; /* Set the width to the full viewport width */
+    height: 100vh; /* Set the height to the full viewport height */
+}
+  
+  .fl-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .fl-loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9EA9A;
+  }
+
+.fl-loadtext-overlay{
+  position: absolute;
+  margin-top: 20%;
+  font-size: 40px;
+  color: #F9EA9A;
+  top: 10%;
+  left: 40%;
+}
+
+
+
+
+  

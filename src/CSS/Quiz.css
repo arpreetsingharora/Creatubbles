@@ -1,0 +1,72 @@
+.image-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.quizContainer {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto; /* Center the container horizontally */
+  align-items: center;
+  flex-direction: column; /* Center items vertically */
+}
+
+.quesImg {
+  width: 350px;
+  height: 350px;
+  max-height: 400px;
+  max-width: 400px;
+  margin-left: 240px;
+}
+
+.question-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #F9EA9A;
+  text-align: center;
+  width: 100%;
+  margin-left: 70px;
+}
+
+.options {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+}
+
+.singleOption {
+  width: 46%;
+  height: 50px;
+  padding: 15px 20px;
+  margin: 10px;
+  box-shadow: 0 0 2px black;
+}
+
+.timer {
+  margin-top: 20px; /* Use fixed margin value */
+  margin-left: 60px; /* Remove margin-left */
+}
+
+.controls {
+  margin-left: 300px; /* Remove margin-left */
+}
